@@ -1,10 +1,28 @@
 body
 {
     font-family: cursive;
-    font-size: 12px
+    font-size: 16px;
 }
 h1
 {
     font-size: 1.2em;
     color: darkblue;
+}
+
+.nav {
+    background-color: darkred;
+    width: 100%;
+}
+
+ul > li {
+    display: inline;
+}
+
+.nav-menu {
+    display: inline-block;
+}
+
+a {
+    color:white;
+    text-decoration: none;
 }
