@@ -1,7 +1,53 @@
-body
-{
-    font-family: cursive;
+body {
+    margin: 0;
+    font-family: sans-serif;
     font-size: 16px;
+    box-sizing: border-box;
+
+}
+.container {
+    display: flex;
+    height:100vh; /* memakai seluruh tinggi yang tampil di layar */
+    flex-direction:column; /* Agar flex-grow dapat memakai seluruh ruang tersisa */
+}
+
+.nav {
+    background-color: darkred;
+    width: 100%;
+    position: flex;
+    height: 2.6em;
+}
+.titlebox {
+    max-width:50%;
+    display: inline-block;
+}
+.title {
+    color: white;
+    font-size: 1.5em;
+
+
+
+}
+div.nav li {
+    display: inline;
+}
+
+.nav-menu {
+
+    max-width: 50%;
+    display: inline-block;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.page {
+    display: none;
+    background-color: cornflowerblue;
+    flex-grow: 1; /* Memakai seluruh ruang tersisa */
+
 }
 h1
 {
@@ -9,20 +55,11 @@ h1
     color: darkblue;
 }
 
-.nav {
+
+
+.footer {
+    flex: 0 1 content; /* selalu menyediakan ruang di paling bawah */
     background-color: darkred;
-    width: 100%;
-}
-
-ul > li {
-    display: inline;
-}
-
-.nav-menu {
-    display: inline-block;
-}
-
-a {
     color:white;
-    text-decoration: none;
+
 }
