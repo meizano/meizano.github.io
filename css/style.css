@@ -17,19 +17,18 @@ body {
     position: flex;
     height: 2.6em;
 }
-.titlebox {
-    max-width:50%;
-    display: inline-block;
-}
+
 .title {
     color: white;
     font-size: 1.5em;
+    max-width:50%;
+    display: inline-block;
 
 
 
 }
 div.nav li {
-    display: inline;
+    display: inline-block;
 }
 
 .nav-menu {
