@@ -6,6 +6,12 @@ body {
     box-sizing: border-box;
 
 }
+h1 {
+    background-color: antiquewhite;
+}
+p {
+    background-color: aqua
+}
 
 .container {
     display: flex;
