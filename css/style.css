@@ -6,12 +6,6 @@ body {
     box-sizing: border-box;
 
 }
-h1 {
-    background-color: crimson;
-}
-p {
-    background-color: beige;
-}
 
 .container {
     display: flex;
