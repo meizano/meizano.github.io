@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     box-sizing: border-box;
 
 }
@@ -13,6 +13,51 @@ body {
     background-color: beige;
 }
 
+@media only screen and (min-width: 768px) {
+    .page {
+        max-width: 50em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.title {
+    max-width:51%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 2em;
+    color: darkred;
+}
+
+h2
+{
+    font-size: 1.2em;
+    color: brown;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.5em;
+}
+
+.lingkaran {
+    background-image: url("../img/meizano.jpg");
+    display: inline-block;
+    border-radius:50%;
+    width: 128px;
+    height: 128px;
+    background-color: darkred;
+    margin: 1em;
+}
+
 .nav {
     position: fixed;
     padding-right: 0.1em;
@@ -21,27 +66,13 @@ body {
     padding-bottom: auto;
 }
 
-.title {
-    color: darkblue;
-    font-size: 1.5em;
-    max-width:50%;
-    display: inline-block;
-
-
-
-}
-div.nav li {
-    display: inline-block;
-}
-
 .nav-menu {
 
     max-width: 50%;
     display: inline-block;
 }
-
-a {
-    text-decoration: none;
+div.nav li {
+    display: inline-block;
 }
 
 .page {
@@ -49,25 +80,10 @@ a {
     background-color: #FFF;
     flex-grow: 1; /* Memakai seluruh ruang tersisa */
 }
-h1
-{
-    font-size: 1.2em;
-    color: darkblue;
-}
 
 .footer {
     flex: 0 1 content; /* selalu menyediakan ruang di paling bawah */
     background-color: darkred;
     color:white;
-}
-
-.lingkaran {
-    display: inline-block;
-    border-radius:50%;
-    width: 3em;
-    height: 3em;
-    background-color: #FF0;
-}
-#nav {
-
+    text-align: center;
 }
