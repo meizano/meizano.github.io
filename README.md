@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Selamat Datang di profil Meizano Ardhi Muhammad
 
-You can use the [editor on GitHub](https://github.com/meizano/meizano.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+![Meizano Ardhi Muhammad](./img/meizano.jpg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Kunjungi  [meizano.github.io](https://meizano.github.io) untuk melihat profil.
 
-### Markdown
+### Informasi berkas
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- `index.html` memuat informasi mengenai profil **Meizano Ardhi Muhammad**.
+- `css` memuat berkas untuk gaya tampilan. _Saat ini hanya 1 berkas (style.css)_
+- `js` memuat berkas untuk javascript. _Saat ini belum dipakai_
+- `img` memuat gambar. 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### To Do
+```markdown 
+Hal yang mungkin harus dilakukan:
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/meizano/meizano.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. Menambahkan halaman projects
+2. Menambahkan halaman contact
+3. Membuat logika ganti halaman dengan javascript
